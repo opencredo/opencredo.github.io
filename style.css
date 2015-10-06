@@ -1,0 +1,220 @@
+
+
+html{
+	margin:0px;
+	padding:0px;
+	position: relative;
+    min-height: 100%;
+}
+
+
+body	{ 
+	margin:0 0 60px;
+	padding:0px;
+	background: url("img/nodeabstract2.jpg") repeat fixed center top / cover #FFF;
+	
+	/* Chrome, Safari, Opera 
+	animation: animatedBackground 40s ease-in-out infinite;
+	animation-direction: alternate;
+	
+	-webkit-animation-name: animatedBackground; 
+    -webkit-animation-duration: 40s; 
+	-webkit-animation-iteration-count: infite; 
+	-webkit-animation-timing-function: ease-in-out; 
+	-webkit-animation-direction: alternate;
+	
+	-moz-animation-name: animatedBackground; 
+    -moz-animation-duration: 40s; 
+	-moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+	-moz-animation-direction: alternate;	
+	*/
+	
+	font-family: "Open Sans", sans-serif;
+}
+
+
+h1{
+	font-size: 3.3em;
+	margin: 0.67em 0px;
+	margin-top: 0px;
+	margin-bottom: 0.1rem;
+}
+
+h2{
+	font-size: 1.6em;
+	margin: 0.67em 0px;
+	margin-top: 0px;
+	margin-bottom: 0.1rem;
+}
+
+p{
+	margin:0px;
+	padding:0px;
+}
+
+
+a{
+	font: 0.8rem "Open Sans";
+	color: #fff;
+}
+
+label{
+	display: block;
+	margin-bottom: 3px;
+	font: 12px "Open Sans";
+	color: #fff;
+}
+
+input{
+	display: block;
+	width: 100%;
+	padding: 8px 0px;
+	text-indent: 2%;
+
+}
+
+.button {
+	clear: both;
+	background-color: #2288BB;
+	border: 0px none;
+	border-radius: 4px;
+	color: #FFF;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	height: 32px;
+	line-height: 32px;
+	margin: 0px 5px 10px 0px;
+	padding: 0px 22px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	width: auto;
+	border-bottom: 2px solid #117799;
+}
+
+
+#mc_embed_signup {
+    width: 31%;
+    margin: 0px auto;
+}
+
+.mc-field-group {
+    clear: left;
+    position: relative;
+    width: 96%;
+    padding-bottom: 3%;
+    min-height: 50px;
+}
+
+#maintained{
+	text-align:center;
+	font-size: 0.8rem;
+	font-family: 'Open Sans', sans-serif;
+	color: #D4D4D4;
+}
+
+.page-header {
+    color: #FFF;
+    text-align: center;
+	padding: 11rem 4rem 0 2rem;
+}
+
+#project-name{
+	font-family: 'PT Sans', sans-serif;
+}
+
+#project-tagline{
+	font-family: 'Open Sans', sans-serif;
+	color: #D4D4D4;
+}
+
+#site-footer{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}	
+
+#site-footer div{
+	width: 190px;
+	height: 40px;
+	margin: 0 auto 0 auto; 
+}
+
+#site-footer img{
+	width: 100%;
+}	
+
+@-webkit-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+@-moz-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { -moz-transform: 100% 0; }
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+
+@media all and (max-device-width: 950px){
+	#title{
+		font-size: 530%;
+		line-height: 90%;
+	}	
+	
+	#slogan{
+		font-family: "Alegreya Sans SC", sans-serif;
+		font-size: 120%;
+		text-align: center;
+		margin-top:45px;
+	}	
+}
+
+
+@media only screen and (max-device-width: 360px){
+
+	#header{
+		margin:35px 0 10px 0;
+		padding-top:20px;
+		height: 245px;
+		animation: none;
+	}
+	
+	#title{
+		font-size: 400%;
+		line-height: 90%;
+	}	
+	
+	#slogan{
+		font-family: "Alegreya Sans SC", sans-serif;
+		font-size: 120%;
+		text-align: center;
+		margin-top:25px;
+	}		
+	
+	#content{
+	height: 10px;
+	}
+		
+	#clients{
+		margin-left: auto;
+		margin-right: auto;
+		width:300px; 
+	}
+	
+	#clients img{
+		width:50px;
+		height:60px;
+	}
+	
+}
